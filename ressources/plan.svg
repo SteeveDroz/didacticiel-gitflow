@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns="http://www.w3.org/2000/svg"
   version="1.1"
   width="800"
-  height="600"
->
+  height="600">
   <title>Plan GitFlow</title>
   <defs>
-    <circle id="commit" r="100" stroke="black" />
+    <circle id="commit" r="100" cx="60" cy="60" stroke="black" />
   </defs>
   
-  <use xlink:href="#commit" x="60" y="60" />
+  <use xlink:href="#commit" />
 </svg>
