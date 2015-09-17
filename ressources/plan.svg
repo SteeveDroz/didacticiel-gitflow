@@ -12,8 +12,8 @@
   height="600">
   <title>Plan GitFlow</title>
   <defs>
-    <circle id="commit" r="100" cx="0" cy="0" stroke="black" />
+    <circle id="commit" r="90" cx="0" cy="0" style="stroke:#000000;stroke-width:20" />
   </defs>
   
-  <use xlink:href="#commit" x="100" y="100" />
+  <use xlink:href="#commit" x="100" y="100" style="fill:#FF0000" />
 </svg>
