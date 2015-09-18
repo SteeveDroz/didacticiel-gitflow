@@ -8,46 +8,72 @@
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.1"
-  width="800"
+  width="870"
   height="350">
   <title>Plan GitFlow</title>
   <defs>
     <circle id="commit" r="18" cx="0" cy="0" style="stroke:#000000;stroke-width:4" />
+    <marker id="fleche" markerWidth="40" markerHeight="4" refX="0" refY="2" orient="auto">
+      <path d="M5,2 L9,0 Q7,2 9,4 L5,2" />
+    </marker>
   </defs>
   
-  <line x1="100" y1="25" x2="790" y2="25" style="stroke:#000000;stroke-width:2" />
+  <line x1="100" y1="25" x2="860" y2="25" style="stroke:#000000;stroke-width:2" />
   <text x="10" y="30" font-size="20">master</text>
   
-  <line x1="100" y1="85" x2="790" y2="85" style="stroke:#000000;stroke-width:2" />
+  <line x1="100" y1="85" x2="860" y2="85" style="stroke:#000000;stroke-width:2" />
   <text x="10" y="90" font-size="20">hotfix</text>
   
-  <line x1="100" y1="145" x2="790" y2="145" style="stroke:#000000;stroke-width:2" />
+  <line x1="100" y1="145" x2="860" y2="145" style="stroke:#000000;stroke-width:2" />
   <text x="10" y="150" font-size="20">release</text>
 
-  <line x1="100" y1="205" x2="790" y2="205" style="stroke:#000000;stroke-width:2" />
+  <line x1="100" y1="205" x2="860" y2="205" style="stroke:#000000;stroke-width:2" />
   <text x="10" y="210" font-size="20">dev</text>
 
-  <line x1="100" y1="265" x2="790" y2="265" style="stroke:#000000;stroke-width:2" />
+  <line x1="100" y1="265" x2="860" y2="265" style="stroke:#000000;stroke-width:2" />
   <text x="10" y="270" font-size="20">fonct-1</text>
 
-  <line x1="100" y1="325" x2="790" y2="325" style="stroke:#000000;stroke-width:2" />
+  <line x1="100" y1="325" x2="860" y2="325" style="stroke:#000000;stroke-width:2" />
   <text x="10" y="330" font-size="20">fonct-2</text>
-
+  
+  <line x1="130" y1="25" x2="230" y2="85" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="130" y1="25" x2="230" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="130" y1="25" x2="330" y2="25" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="230" y1="85" x2="330" y2="25" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="230" y1="205" x2="330" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="230" y1="205" x2="330" y2="265" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="330" y1="25" x2="830" y2="25" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="330" y1="205" x2="530" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="330" y1="205" x2="430" y2="325" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="330" y1="265" x2="430" y2="265" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="430" y1="265" x2="530" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="430" y1="325" x2="530" y2="325" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="530" y1="205" x2="630" y2="145" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="530" y1="205" x2="630" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="530" y1="325" x2="630" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="630" y1="145" x2="730" y2="145" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="630" y1="205" x2="830" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="730" y1="145" x2="830" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="730" y1="145" x2="830" y2="25" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  
   <use xlink:href="#commit" x="130" y="25" style="fill:#FFFFEE" />
   <use xlink:href="#commit" x="330" y="25" style="fill:#FFFFEE" />
-  <use xlink:href="#commit" x="730" y="25" style="fill:#FFFFEE" />
+  <use xlink:href="#commit" x="830" y="25" style="fill:#FFFFEE" />
   
   <use xlink:href="#commit" x="230" y="85" style="fill:#FF0000" />
   
   <use xlink:href="#commit" x="630" y="145" style="fill:#888800" />
+  <use xlink:href="#commit" x="730" y="145" style="fill:#888800" />
   
   <use xlink:href="#commit" x="230" y="205" style="fill:#8888FF" />
   <use xlink:href="#commit" x="330" y="205" style="fill:#8888FF" />
   <use xlink:href="#commit" x="530" y="205" style="fill:#8888FF" />
-  <use xlink:href="#commit" x="730" y="205" style="fill:#8888FF" />
+  <use xlink:href="#commit" x="630" y="205" style="fill:#8888FF" />
+  <use xlink:href="#commit" x="830" y="205" style="fill:#8888FF" />
   
   <use xlink:href="#commit" x="330" y="265" style="fill:#FFEEFF" />
   <use xlink:href="#commit" x="430" y="265" style="fill:#FFEEFF" />
   
   <use xlink:href="#commit" x="430" y="325" style="fill:#FFEEFF" />
+  <use xlink:href="#commit" x="530" y="325" style="fill:#FFEEFF" />
 </svg>
