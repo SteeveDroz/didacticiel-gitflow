@@ -34,9 +34,20 @@
   <text x="10" y="330" font-size="20">fonct-2</text>
 
   <use xlink:href="#commit" x="130" y="25" style="fill:#FFFFEE" />
-  <use xlink:href="#commit" x="130" y="85" style="fill:#FF0000" />
-  <use xlink:href="#commit" x="130" y="145" style="fill:#888800" />
-  <use xlink:href="#commit" x="130" y="205" style="fill:#8888FF" />
-  <use xlink:href="#commit" x="130" y="265" style="fill:#FFEEFF" />
-  <use xlink:href="#commit" x="130" y="325" style="fill:#FFEEFF" />
+  <use xlink:href="#commit" x="330" y="25" style="fill:#FFFFEE" />
+  <use xlink:href="#commit" x="730" y="25" style="fill:#FFFFEE" />
+  
+  <use xlink:href="#commit" x="230" y="85" style="fill:#FF0000" />
+  
+  <use xlink:href="#commit" x="630" y="145" style="fill:#888800" />
+  
+  <use xlink:href="#commit" x="230" y="205" style="fill:#8888FF" />
+  <use xlink:href="#commit" x="330" y="205" style="fill:#8888FF" />
+  <use xlink:href="#commit" x="530" y="205" style="fill:#8888FF" />
+  <use xlink:href="#commit" x="730" y="205" style="fill:#8888FF" />
+  
+  <use xlink:href="#commit" x="330" y="265" style="fill:#FFEEFF" />
+  <use xlink:href="#commit" x="430" y="265" style="fill:#FFEEFF" />
+  
+  <use xlink:href="#commit" x="430" y="325" style="fill:#FFEEFF" />
 </svg>
