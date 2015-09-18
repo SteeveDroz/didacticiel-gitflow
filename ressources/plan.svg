@@ -9,11 +9,34 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   version="1.1"
   width="800"
-  height="600">
+  height="350">
   <title>Plan GitFlow</title>
   <defs>
-    <circle id="commit" r="90" cx="0" cy="0" style="stroke:#000000;stroke-width:20" />
+    <circle id="commit" r="18" cx="0" cy="0" style="stroke:#000000;stroke-width:4" />
   </defs>
   
-  <use xlink:href="#commit" x="100" y="100" style="fill:#FF0000" />
+  <line x1="100" y1="25" x2="790" y2="25" style="stroke:#000000;stroke-width:2" />
+  <text x="10" y="30" font-size="20">master</text>
+  
+  <line x1="100" y1="85" x2="790" y2="85" style="stroke:#000000;stroke-width:2" />
+  <text x="10" y="90" font-size="20">hotfix</text>
+  
+  <line x1="100" y1="145" x2="790" y2="145" style="stroke:#000000;stroke-width:2" />
+  <text x="10" y="150" font-size="20">release</text>
+
+  <line x1="100" y1="205" x2="790" y2="205" style="stroke:#000000;stroke-width:2" />
+  <text x="10" y="210" font-size="20">dev</text>
+
+  <line x1="100" y1="265" x2="790" y2="265" style="stroke:#000000;stroke-width:2" />
+  <text x="10" y="270" font-size="20">fonct-1</text>
+
+  <line x1="100" y1="325" x2="790" y2="325" style="stroke:#000000;stroke-width:2" />
+  <text x="10" y="330" font-size="20">fonct-2</text>
+
+  <use xlink:href="#commit" x="130" y="25" style="fill:#FFFFEE" />
+  <use xlink:href="#commit" x="130" y="85" style="fill:#FF0000" />
+  <use xlink:href="#commit" x="130" y="145" style="fill:#888800" />
+  <use xlink:href="#commit" x="130" y="205" style="fill:#8888FF" />
+  <use xlink:href="#commit" x="130" y="265" style="fill:#FFEEFF" />
+  <use xlink:href="#commit" x="130" y="325" style="fill:#FFEEFF" />
 </svg>
