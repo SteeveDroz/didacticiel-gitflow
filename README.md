@@ -42,3 +42,7 @@ Dans une branche d'amélioration, le travail peut être sauvegardé en cours de 
 # release
 
 Lorsqu'une version de la branche `dev` semble bonne à passer en production, on crée un embranchement de `dev` appelé `release`. Quelques modifications peuvent encore avoir lieu afin de corriger les derniers problèmes et de gérer les différents aspects propres aux releases. Une fois que la branche est validée, elle peut être fusionnée avec la branche `master` et avec la branche `dev`. C'est la seule manière de modifier la branche `master`.
+
+# hotfix
+
+La branche `hotfix` est créée lorsqu'une erreur grossière et gênante est détectée dans une version en production. Cette branche est issue de `master` directement et retourne dans `master` dès que la correction a été faite.
