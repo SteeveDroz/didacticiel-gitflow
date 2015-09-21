@@ -23,7 +23,7 @@ Dans le diagramme ci-dessus, les branches sont dessinées sur des lignes, chaque
   - Dans l'exemple ci-dessus, `dev` prend en compte la branche `fonct-1` lorsque la branche `release` est créée, mais pas `fonct-2`, qui n'a pas encore été développée en totalité.
 - Après quelques évenutelles modifications de la branche `release`, lorsque la version du projet est validée, elle est fusionnée d'une part avec `master`, afin de pouvoir distribuer le produit, et d'autre part avec `dev` pour pouvoir continuer le développement en vue d'une prochaine version.
   - La branche `fonct-2`, par exemple, fait partie de `dev` après la distribution du produit. Elle sera incluse dans la prochaine version.
-- La branche `hotfix` permet de modifier des bugs de grande importance qu'on aurait remarqué dans la version définitive. C'est la seule branche (à part pour `dev` au début du projet) qui est issue de `master`. Elle est à nouveau fusionnée avec `master` dès que la correction a été faite.
+- La branche `hotfix` permet de modifier des bugs de grande importance qu'on aurait remarqué dans la version définitive. C'est la seule branche (à part pour `dev` au début du projet) qui est issue de `master`. Elle est à nouveau fusionnée avec `master` dès que la correction a été faite et avec `dev` pour que les modifications soient effectives partout.
 
 # Description détaillée des branches
 
@@ -47,4 +47,5 @@ Lorsqu'une version de la branche `dev` semble bonne à passer en production, on 
 
 ## hotfix
 
-La branche `hotfix` est créée lorsqu'une erreur grossière et gênante est détectée dans une version en production. Cette branche est issue de `master` directement et retourne dans `master` dès que la correction a été faite.
+La branche `hotfix` est créée lorsqu'une erreur grossière et gênante est détectée dans une version en production. Cette branche est issue de `master` directement et retourne dans `master` dès que la correction a été faite. Afin de garantir un bon suivi, la fusion de `hotfix` dans `dev` est également nécessaire.
+
