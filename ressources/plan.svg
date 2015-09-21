@@ -43,6 +43,7 @@
   <line x1="130" y1="25" x2="230" y2="85" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
   <line x1="130" y1="25" x2="230" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
   <line x1="130" y1="25" x2="330" y2="25" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
+  <line x1="230" y1="85" x2="330" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
   <line x1="230" y1="85" x2="330" y2="25" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
   <line x1="230" y1="205" x2="330" y2="205" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
   <line x1="230" y1="205" x2="330" y2="265" style="stroke:black;stroke-width:4;marker-start:url(#fleche)" />
