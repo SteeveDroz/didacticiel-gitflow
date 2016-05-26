@@ -10,7 +10,7 @@ Le GitFlow est une architecture permettant de séparer le projet en branches dis
 
 ## Plan des branches
 
-![Plan des branches](ressources/plan.png)
+![Plan des branches](ressources/plan.svg)
 
 Dans le diagramme ci-dessus, les branches sont dessinées sur des lignes, chaque commit étant un rond.
 
