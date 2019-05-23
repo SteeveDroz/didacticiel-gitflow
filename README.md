@@ -1,5 +1,11 @@
 # didacticiel-gitflow
 
+**THIS PROJECT HAS MOVED TO [GITLAB](https://gitlab.com/SteeveDroz/didacticiel-gitflow) TO AVOID THE SKYPE EFFECT!**
+
+**CE PROJET A ÉTÉ DÉPLACÉ VERS [GITLAB](https://gitlab.com/SteeveDroz/didacticiel-gitflow) POUR ÉVITER L'EFFET SKYPE!**
+
+![Skype effect](https://steevedroz.github.io/microsoft-github.jpg)
+
 Un didacticiel (ou tutoriel) expliquant le GitFlow.
 
 # GitFlow
